@@ -1,9 +1,7 @@
 public class PrimitifConversionAssignment2 {
     public static void main(String[] args) {
-        double d;
-        short s;
-        d = 1.2345;
-        s = (short) d; // Assign a double to a short variable, added type casting
-        System.out.print("Nilai d: " + s);
+        double d = 1.2345; // Assign a double value to a double variable
+        short s = (short) d; // Explicitly cast a double to a short variable
+        System.out.print("Nilai s: " + s); // Display the value of the short variable s
     }
 }

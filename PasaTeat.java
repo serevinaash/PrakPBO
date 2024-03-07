@@ -1,3 +1,23 @@
+class MyDate {
+    private int day;
+    private int month;
+    private int year;
+
+    public MyDate(int day, int month, int year) {
+        this.day = day;
+        this.month = month;
+        this.year = year;
+    }
+
+    public void setDay(int day) {
+        this.day = day;
+    }
+
+    public void print() {
+        System.out.println("Date: " + day + "/" + month + "/" + year);
+    }
+}
+
 public class PasaTeat {
 
     // Methods to change the current values
@@ -29,7 +49,7 @@ public class PasaTeat {
         // Assign the date
         date = new MyDate(22, 7, 1964);
 
-        // Try to change it
+        // Try to change the reference
         changeObjectRef(date);
 
         // What is the current value?
