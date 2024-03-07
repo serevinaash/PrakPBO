@@ -1,4 +1,4 @@
-public class PrimitifConversionAssignment {
+public class PrimitifConversion {
     public static void main(String[] args) {
         // Konversi tipe data int ke double
         double d = 10;

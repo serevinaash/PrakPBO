@@ -36,5 +36,9 @@ public class TestConversions {
         System.out.println("long to int: " + (int) l);
         System.out.println("int to short: " + (short) i);
         System.out.println("short to byte: " + (byte) s);
+
+        // Using the values of d and c
+        System.out.println("Value of d: " + d);
+        System.out.println("Value of c: " + c);
     }
 }

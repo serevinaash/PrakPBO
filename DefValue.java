@@ -1,11 +1,11 @@
 public class DefValue {
-    static boolean b;
-    static int i;
-    static double d;
-    static long l;
-    static char c;
-    static float f;
-    static byte y;
+    boolean b;
+    int i;
+    double d;
+    long l;
+    char c;
+    float f;
+    byte y;
 
     public static void main(String[] args) {
         DefValue val = new DefValue();

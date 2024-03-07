@@ -8,8 +8,8 @@ public class IncDec {
         System.out.println("a=" + a + ": b=" + b);
 
         // Increment nilai a dan decrement nilai b
-        a = ++a;
-        b = --b;
+        a++;
+        b--;
 
         // Menampilkan nilai setelah operasi increment-decrement
         System.out.println("Nilai setelah increment-decrement");
